@@ -1,0 +1,128 @@
+/* Glassmorphic Card */
+.card {
+    width: 100%;
+    max-width: 280px;
+    height: 360px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    padding: 0;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.25s ease;
+}
+
+.productdetailpage{
+    background-color: #111111;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.45);
+}
+
+/* Image container */
+.imgContainer {
+    width: 100%;
+    height: 190px;
+    border-radius: 16px 16px 0 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Heart icon */
+.heartIcon {
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    transition: scale 0.2s ease;
+}
+
+.heartIcon:hover {
+    transform: scale(1.2);
+}
+
+/* Rating badge */
+.rating {
+    font-size: 14px;
+    background: rgba(0, 255, 130, 0.25);
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    font-weight: 600;
+    backdrop-filter: blur(8px);
+}
+
+
+
+/* Mobile floating nav */
+.mobileNav {
+    position: fixed;
+    bottom: 18px;
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255,255,255,0.15);
+    padding: 12px 20px;
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.25);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 12px 20px rgba(0,0,0,0.35);
+}
+
+.navItems {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+
+.navbarModern {
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(14px);
+}
+
+.search {
+    background: rgba(255, 255, 255, 0.12) !important;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    color: white !important;
+    border-radius: 12px;
+}
+
+Link{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width:633px){
+    .mainparent{
+        overflow: hidden;
+        margin: 10px;
+    }
+
+    .mainparent img{
+        object-fit: cover;
+    }
+
+    .card{
+        width: 175px;
+        height: 300px;
+    }
+
+    .homegridcontainer {
+        width: 80%;           /* allow grid to use full width  */
+        display: grid;         /* ensure grid is still grid */
+        grid-template-columns: repeat(2, 1fr); /* 2 items */
+        gap: 1rem;
+    }
+    
+}
