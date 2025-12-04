@@ -1,0 +1,146 @@
+export default [
+  {
+    "id": 1,
+    "name": "Sony WH-CH720N",
+    "rating": 4.4,
+    "price": 129,
+    "brand": "Sony",
+    "url": "https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?q=80&w=813&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Lightweight wireless headphones designed for comfortable all-day listening. They offer active noise cancellation to reduce background distractions. The sound profile is balanced, making them suitable for music, calls, and entertainment. With long battery life, they are ideal for travel and work use. Seamless connectivity ensures stable performance across devices."
+  },
+  {
+    "id": 2,
+    "name": "JBL Tune 760NC",
+    "rating": 4.2,
+    "price": 99,
+    "brand": "JBL",
+    "url": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A lightweight ANC headphone from JBL with a strong bass-forward sound signature. The foldable design makes it convenient for commuting and travel. It offers fast pairing and dual connectivity for seamless device switching. Battery life is solid, supporting long listening sessions. Ideal for users who prefer punchy audio and modern features at an affordable price."
+  },
+  {
+    "id": 3,
+    "name": "Skullcandy Crusher Evo",
+    "rating": 4.3,
+    "price": 149,
+    "brand": "Skullcandy",
+    "url": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Known for its signature haptic bass, this headphone delivers a highly immersive listening experience. It features an adjustable sensory bass slider to customize low-frequency intensity. The design is rugged and travel-friendly with excellent comfort. Long battery life supports extended usage without frequent charging. Ideal for bass lovers seeking powerful, dynamic audio."
+  },
+  {
+    "id": 4,
+    "name": "Sennheiser HD 450BT",
+    "rating": 4.5,
+    "price": 159,
+    "brand": "Sennheiser",
+    "url": "https://plus.unsplash.com/premium_photo-1679513691641-9aedddc94f96?q=80&w=813&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A premium wireless ANC headphone focused on clean, detailed sound. Built with durable materials, it ensures long-term reliability. Noise cancellation works effectively in most environments. Strong battery performance supports multi-day listening. Ideal for users who value refined audio and dependable wireless performance."
+  },
+  {
+    "id": 5,
+    "name": "AKG Y600NC",
+    "rating": 4.1,
+    "price": 120,
+    "brand": "AKG",
+    "url": "https://images.unsplash.com/photo-1676315636995-a5d5df17b192?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Designed for balanced and studio-inspired sound, the Y600NC offers clarity and detail. Active noise cancellation provides good isolation for daily travel. The earcups feature soft padding for long-wearing comfort. Touch controls help manage commands easily. A versatile choice for users seeking accurate sound reproduction."
+  },
+  {
+    "id": 6,
+    "name": "Bose QC35 II",
+    "rating": 4.7,
+    "price": 199,
+    "brand": "Bose",
+    "url": "https://plus.unsplash.com/premium_photo-1679913796054-fc4e44f35b40?q=80&w=484&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A top-tier ANC headphone known for comfort and excellent noise cancellation. It delivers smooth, well-balanced sound suitable for all genres. Lightweight construction makes it ideal for long flights and work hours. Built-in assistants support voice-controlled operation. A proven flagship model trusted for premium quality and performance."
+  },
+  {
+    "id": 7,
+    "name": "Marshall Major IV",
+    "rating": 4.6,
+    "price": 129,
+    "brand": "Marshall",
+    "url": "https://plus.unsplash.com/premium_photo-1679513691641-9aedddc94f96?q=80&w=813&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Combining retro design with modern performance, the Major IV offers iconic Marshall styling. It provides warm, punchy audio suited for rock and pop. Exceptional battery life makes it stand out from competitors. The foldable frame ensures portability. Perfect for users who value aesthetics without compromising sound."
+  },
+  {
+    "id": 8,
+    "name": "Boat Immortal 200",
+    "rating": 4.0,
+    "price": 70,
+    "brand": "Boat",
+    "url": "https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?q=80&w=813&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Designed for gaming and media consumption on a budget. It provides low-latency audio for responsive gameplay. The build is lightweight and comfortable for extended use. RGB lighting adds a stylish touch for gamers. Ideal for users looking for an affordable gaming-focused headphone."
+  },
+  {
+    "id": 9,
+    "name": "Samsung Glaxy S24",
+    "rating": 4.5,
+    "price": 99,
+    "brand": "Samsung",
+    "url": "https://m.media-amazon.com/images/I/71jOyQ1HLqL._SL1500_.jpg",
+    "description": "A modern smartphone featuring a crisp display and smooth performance. Designed to handle multitasking efficiently with improved processing capability. Camera system delivers detailed photos in varied lighting. The battery life supports all-day functionality. Ideal for everyday use with balanced performance and design."
+  },
+  {
+    "id": 10,
+    "name": "Redmi 13 pro max",
+    "rating": 4.4,
+    "price": 139,
+    "brand": "Redmi",
+    "url": "https://m.media-amazon.com/images/I/71VW8LmqqPL._SL1500_.jpg",
+    "description": "A value-packed smartphone built for strong battery life and daily performance. The display offers smooth visuals suited for streaming and gaming. A capable multi-lens camera system captures clear images. Fast charging ensures minimal downtime. Ideal for users who want performance without a premium price tag."
+  },
+  {
+    "id": 11,
+    "name": "Microsoft Surface Laptop",
+    "rating": 4.2,
+    "price": 79,
+    "brand": "microsoft",
+    "url": "https://m.media-amazon.com/images/I/510uTHyDqGL._SL1000_.jpg",
+    "description": "A lightweight laptop engineered for productivity and portability. It features a sleek design with comfortable typing experience. The display provides crisp clarity for work and entertainment. Battery efficiency ensures reliable daily workflow. Ideal for professionals and students needing smooth Windows performance."
+  },
+  {
+    "id": 12,
+    "name": "Apple MacBook Air 15",
+    "rating": 4.3,
+    "price": 99,
+    "brand": "mac",
+    "url": "https://m.media-amazon.com/images/I/71XltS5fMAL._SL1500_.jpg",
+    "description": "A highly portable laptop powered by Apple silicon for exceptional performance. It offers a large 15-inch display with vivid colors. Battery life is impressive, handling full workdays easily. The fanless design ensures silent operation. Ideal for creators, students, and professionals who prioritize speed and efficiency."
+  },
+  {
+    "id": 13,
+    "name": "Philips TAH8506",
+    "rating": 4.1,
+    "price": 110,
+    "brand": "Philips",
+    "url": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A comfortable over-ear headphone featuring adaptive noise cancellation. It delivers a balanced sound suited for daily listening. The lightweight design supports extended wear. Touch controls enhance ease of use. Suitable for users looking for a reliable headphone with modern connectivity."
+  },
+  {
+    "id": 14,
+    "name": "Edifier W820NB",
+    "rating": 4.2,
+    "price": 69,
+    "brand": "Edifier",
+    "url": "https://plus.unsplash.com/premium_photo-1679513691641-9aedddc94f96?q=80&w=813&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A budget ANC headphone known for comfort and clean audio. The design is elegant with soft cushioning for long sessions. Noise cancellation works well for office and commute environments. Battery life is strong for its class. A great option for users seeking premium features at an accessible price."
+  },
+  {
+    "id": 15,
+    "name": "Truke Horizon W10",
+    "rating": 3.9,
+    "price": 55,
+    "brand": "Truke",
+    "url": "https://plus.unsplash.com/premium_photo-1679913796054-fc4e44f35b40?q=80&w=484&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A budget-friendly headphone offering clear audio for everyday use. It features a simple and lightweight construction. Suitable for casual music listening and media. Battery performance is adequate for daily activities. A good choice for users seeking an affordable, no-frills option."
+  },
+  {
+    "id": 16,
+    "name": "Hp laptop",
+    "rating": 5.0,
+    "price": 589,
+    "brand": "Hp",
+    "url": "https://m.media-amazon.com/images/I/6124chHlbrL._SL1137_.jpg",
+    "description": "A powerful laptop designed for productivity, multitasking, and professional workloads. It features strong hardware suited for demanding applications. The build quality ensures durability for long-term use. A clear display enhances work and entertainment experiences. Ideal for users who prioritize performance and reliability."
+  }
+]
