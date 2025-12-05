@@ -31,7 +31,7 @@ export default function CreateAccount() {
 
       if (res.ok) {
         // Navigate only when the API call succeeds
-        navigate("/");
+        navigate("/login");
       } else {
         alert(data.message || "Registration failed");
       }
