@@ -41,6 +41,7 @@ This project implements core e-commerce functionality including product listing,
 │
 ├── backend
 │   ├── server.js
+|   ├── vercel.js
 │   ├── config/
 │   ├── controllers/
 │   ├── models/
@@ -50,10 +51,15 @@ This project implements core e-commerce functionality including product listing,
 └── frontend
     ├── src/
     │   ├── components/
-    │   ├── pages/
+    |   ├── Api/
+    |   ├── Css/
+    |   ├── Media/
+    │   ├── Pages/
     │   ├── context/      # or store/
     │   ├── App.js
     │   └── index.js
+    │   └── index.css
+    │   └── output.css
 ```
 
 
