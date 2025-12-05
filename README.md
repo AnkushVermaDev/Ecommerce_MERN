@@ -1,5 +1,5 @@
 # 🛒 MERN E-Commerce App
-A functional e-commerce application built using the MERN Stack (MongoDB, Express.js, React, Node.js) as part of the Sicuaura MERN Full Stack Internship Project Evaluation.
+A functional e-commerce application built using the MERN Stack (MongoDB, Express.js, React, Node.js)
 
 ## Overview
 This project implements core e-commerce functionality including product listing, product details, user authentication, and cart management. Focus areas include clean code, RESTful API design, and maintainable state management.
