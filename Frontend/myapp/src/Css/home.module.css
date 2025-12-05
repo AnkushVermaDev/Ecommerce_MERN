@@ -39,7 +39,11 @@
 .headerlogo {
   font-weight: bolder;
 }
-
+@media (max-width:600px) {
+    .headerlogo {
+        padding-left: 10px;
+    }
+}
 
 /* Heart icon */
 .heartIcon {
