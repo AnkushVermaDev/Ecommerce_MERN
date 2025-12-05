@@ -105,32 +105,44 @@ const Header = ({ onSearch, cartcounterstate }) => {
                     </div>
 
                     <div className="d-flex flex-column gap-3">
-                        {
-                            localStorage.getItem('jwt') ? (<>
-                                <div className="w-10 h-10 rounded-full d-flex flex-row align-items-center ">
-                                    <Link style={{ textDecoration: 'none' }} className="items-center  text-white flex flex-row" to="/account">
-                                        <i className="bi bi-person fs-2"></i>
-                                        <h4>User</h4>
-                                    </Link>
+  {localStorage.getItem('jwt') ? (
+    <Link
+      to="/account"
+      className="d-flex align-items-center gap-2 text-white text-decoration-none"
+    >
+      <i className="bi bi-person fs-3"></i>
+      <span className="fs-6 pt-1">User</span>
+    </Link>
+  ) : (
+    <>
+      <Link
+        to="/login"
+        className="d-flex align-items-center text-white text-decoration-none"
+      >
+        Login
+      </Link>
+      <Link
+        to="/signup"
+        className="d-flex align-items-center text-white text-decoration-none"
+      >
+        SignUp
+      </Link>
+    </>
+  )}
 
-                                </div>
+  <Link
+    to="/cart"
+    className="d-flex align-items-center text-white gap-2 text-decoration-none"
+    onClick={() => setIsMenuOpen(false)}
+  >
+    <i className="bi bi-bag fs-3"></i>
+    <span className="fs-6 pt-2">Cart</span>
+    {cartcounterstate !== 0 && (
+      <span className="text-primary ms-1">({cartcounterstate})</span>
+    )}
+  </Link>
+</div>
 
-                            </>) : (<>
-                                <Link style={{ textDecoration: 'none' }} className="text-white" to="/login">Login</Link>
-                                <Link style={{ textDecoration: 'none' }} className="text-white" to="/signup">SignUp</Link>
-                            </>)
-                        }
-
-                        <Link to="/cart" className="d-flex align-items-center text-white" style={{ textDecoration: 'none' }} onClick={() => setIsMenuOpen(false)}>
-                            <i className="bi bi-bag fs-4 me-2"></i>
-                            Cart
-                            {cartcounterstate !== 0 && (
-                                <span className="text-primary ms-2">
-                                    ({cartcounterstate})
-                                </span>
-                            )}
-                        </Link>
-                    </div>
                 </div>
             )}
         </>
