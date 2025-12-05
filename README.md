@@ -25,9 +25,7 @@ This project implements core e-commerce functionality including product listing,
 ### Client
 - React.js
 - React Router
-- Redux Toolkit / Context API
-- TailwindCSS / Custom CSS
-- Axios
+- TailwindCSS / Custom CSS / Bootstrap
 
 ### Server
 - Node.js
@@ -39,6 +37,7 @@ This project implements core e-commerce functionality including product listing,
 ## Project Structure
 
 /Ecommerce_MERN
+
 ├── backend
 │ ├── server.js
 │ ├── config/
