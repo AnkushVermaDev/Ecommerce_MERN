@@ -86,13 +86,24 @@ const Home = () => {
     // Skeleton Card Component
     // ------------------------------
     const SkeletonCard = () => (
-        <div className="bg-gray-800 rounded-3 p-3 animate-pulse">
-            <div className="bg-gray-700 mb-3" style={{ height: "150px", borderRadius: "12px" }}></div>
-            <div className="bg-gray-700 mb-2" style={{ height: "18px", width: "70%" }}></div>
-            <div className="bg-gray-700 mb-2" style={{ height: "18px", width: "40%" }}></div>
-            <div className="bg-gray-700" style={{ height: "40px", borderRadius: "10px" }}></div>
+        <div className="bg-gray-800 rounded-3 p-3 animate-pulse w-full">
+
+            {/* Responsive image placeholder */}
+            <div
+                className="bg-gray-700 mb-3 rounded-3"
+                style={{
+                    aspectRatio: "3 / 4",   // auto adjusts height relative to width
+                    width: "100%"
+                }}
+            ></div>
+
+            <div className="bg-gray-700 mb-2 rounded" style={{ height: "14px", width: "70%" }}></div>
+            <div className="bg-gray-700 mb-2 rounded" style={{ height: "14px", width: "40%" }}></div>
+
+            <div className="bg-gray-700 rounded mt-3" style={{ height: "35px" }}></div>
         </div>
     );
+
 
     // ------------------------------
     // UI
