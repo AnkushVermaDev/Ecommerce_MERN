@@ -1,0 +1,30 @@
+.productimgcontainer{
+             height: 350px;
+}
+
+.childimg{
+    width: 25%;
+}
+
+
+
+@media (max-width:870px){
+    .childimg{
+        width: 50%;
+    }
+}
+
+@media (max-width:1170px){
+    .childimg{
+        width: 41%;
+    }
+}
+
+@media (max-width:670px){
+    .productimgcontainer{
+        height: 250px;
+    }
+    .childimg{
+        width: 55%;
+    }
+}
