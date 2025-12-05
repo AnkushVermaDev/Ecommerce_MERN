@@ -36,6 +36,11 @@
     object-fit: cover;
 }
 
+.headerlogo {
+  font-weight: bolder;
+}
+
+
 /* Heart icon */
 .heartIcon {
     right: 10px;
