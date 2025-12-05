@@ -50,12 +50,12 @@ This project implements core e-commerce functionality including product listing,
 │
 └── frontend
     ├── src/
-    │   ├── components/
     |   ├── Api/
     |   ├── Css/
     |   ├── Media/
     │   ├── Pages/
     │   ├── context/      # or store/
+    │   ├── components/
     │   ├── App.js
     │   └── index.js
     │   └── index.css
