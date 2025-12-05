@@ -36,22 +36,26 @@ This project implements core e-commerce functionality including product listing,
 
 ## Project Structure
 
+```
 /Ecommerce_MERN
-
+│
 ├── backend
-│ ├── server.js
-│ ├── config/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ └── middleware/
+│   ├── server.js
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── middleware/
+│
 └── frontend
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── context/ or store/
-│ ├── App.js
-│ └── index.js
+    ├── src/
+    │   ├── components/
+    │   ├── pages/
+    │   ├── context/      # or store/
+    │   ├── App.js
+    │   └── index.js
+```
+
 
 
 
