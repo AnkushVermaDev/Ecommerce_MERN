@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import styles from "../Css/home.module.css";
+import productstyle from '../Css/productdetail.module.css'
 import popupsound from "../Media/Sounds/popup.mp3";
 import successpayment from '../Media/Sounds/Successpayment.mp3';
 
@@ -10,7 +11,7 @@ const ProductDetail = () => {
 
   const [product, setProduct] = useState(location.state || null);
   const [loading, setLoading] = useState(!location.state);
-  const [open,setOpen]=useState(false);
+  const [open, setOpen] = useState(false);
 
   const ip = process.env.REACT_APP_IP;
 
@@ -47,7 +48,7 @@ const ProductDetail = () => {
   // Skip fetch if product provided via navigation
   // -----------------------------
   useEffect(() => {
-    if (product) return; 
+    if (product) return;
 
     const fetchProductById = async () => {
       try {
@@ -99,18 +100,16 @@ const ProductDetail = () => {
         style={{ background: "#111", border: "1px solid #222" }}
       >
         <div
-          className="w-full rounded overflow-hidden relative d-flex items-center justify-center bg-gray-900 border"
-          style={{ height: "350px" }}
-        >
+          className={`${productstyle.productimgcontainer} productimgcontainer w-full rounded overflow-hidden relative d-flex items-center justify-center  border`}>
           <i className="bi bi-arrow-left text-white absolute left-3 fs-1"></i>
 
-          <div className="child-img w-[49%] md:w-[45%] lg:w-[25%] h-full bg-red-500">
+          <div className={`${productstyle.childimg} w-[49%] md:w-[45%] lg:w-[25%] h-full`}>
 
             <img
               src={product.url}
               alt={product.name}
               style={{ objectFit: "cover", width: "100%", height: "100%" }
-            }
+              }
             />
           </div>
 
@@ -191,11 +190,13 @@ const ProductDetail = () => {
 
         <div className="description w-full">
           <hr className="mt-5" />
-          <h3 className="pt-15 text-white">Description</h3>
+          <h3 className="pt-15 text-white"
+          style={{marginBottom:'30px'}}
+          >Description</h3>
 
-          <h5 className="text-gray-400 font-light mt-5">
+          <span className="text-gray-300 font-bold fs-5 ">
             {product.description.substring(0, 50)}...
-          </h5>
+          </span>
 
           <button
             className="moredetail w-full flex items-center justify-center mt-2"
@@ -208,8 +209,10 @@ const ProductDetail = () => {
           </button>
 
           {open && (
-            <div className="detail mt-3">
-              <h5 className="fs-6 font-light text-gray-200">{product.description}</h5>
+            <div className="detail mt-3 ">
+              <span className="fs-6 font-light text-gray-300 w-full">
+                {product.description}
+              </span>
 
               {/* Highlights */}
               <div className="mt-4">
