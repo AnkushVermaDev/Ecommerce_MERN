@@ -24,7 +24,7 @@ const Header = ({ onSearch, cartcounterstate }) => {
 
                         {/* LEFT: Logo */}
                         <div className="col-6 col-md-4 d-flex align-items-center">
-                            <h2 className="m-0">RetroShop</h2>
+                            <h2 className= {`${styles.headerlogo} m-0 `}>EliteMart</h2>
                         </div>
 
                         {/* CENTER: Desktop Search */}
