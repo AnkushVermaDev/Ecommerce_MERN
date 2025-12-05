@@ -142,7 +142,6 @@ const Header = ({ onSearch, cartcounterstate }) => {
     )}
   </Link>
 </div>
-
                 </div>
             )}
         </>
